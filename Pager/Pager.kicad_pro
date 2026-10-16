@@ -661,13 +661,17 @@
         "uuid": "8c42cffd-f62f-42dc-b4f9-7d6b51af7b59"
       }
     ],
-    "used_designators": "#PWR1,#PWR11-14,#PWR18,#PWR26,#PWR57,#PWR61,#PWR63,#PWR67-68,#PWR79-87,#PWR96-100,C35-36,C38-39,C41-44,C47,Y1,U1,U10,TP1-8,R32-35,J5",
+    "used_designators": "#PWR1-4,#PWR11-14,#PWR18,#PWR26,#PWR57,#PWR61,#PWR63,#PWR67-68,#PWR79-87,#PWR96-100,C1-2,C35-36,C38-39,C41-44,C47,Y1,U1-2,U10,TP1-8,R32-35,J5",
     "variants": []
   },
   "sheets": [
     [
       "8c42cffd-f62f-42dc-b4f9-7d6b51af7b59",
       "Root"
+    ],
+    [
+      "0029df19-bc4a-40c8-86ec-a5e746fc180c",
+      "Power"
     ]
   ],
   "text_variables": {},
