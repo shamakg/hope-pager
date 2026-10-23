@@ -2245,65 +2245,71 @@
 		)
 		(uuid "fb44e308-8bcb-49b7-8086-c88466eaaa80")
 	)
-	(label "RF_GDO1"
-		(at 58.42 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "420d3706-1aad-4423-b07d-6286a8a89971")
-	)
-	(label "RF_GDO0"
+	(hierarchical_label "RF_GDO0"
+		(shape input)
 		(at 54.61 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "755caab4-1757-4ef4-bd25-0e524aa805cf")
+		(uuid "27b18895-da8b-440f-ae65-c8e5e880c530")
 	)
-	(label "RF_GDO2"
+	(hierarchical_label "RF_GDO2"
+		(shape input)
 		(at 58.42 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "787f6bdb-ff26-42e0-8422-355851e208ac")
+		(uuid "695851d5-ece1-45b0-aca9-8cf65b658149")
 	)
-	(label "RF_SI"
-		(at 58.42 67.31 180)
+	(hierarchical_label "RF_GDO1"
+		(shape input)
+		(at 58.42 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "8eec2225-e2c8-41c2-b74c-96f735bb1f83")
+		(uuid "7289bcb2-bef4-4beb-8b98-33e71632f8bc")
 	)
-	(label "RF_CSn"
+	(hierarchical_label "RF_CSn"
+		(shape input)
 		(at 54.61 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "9cc42b3e-bf6e-4efa-b0c8-463ea52aff3f")
+		(uuid "d66a7814-589e-4a7b-8657-a0cdba7675e9")
 	)
-	(label "RF_SCLK"
+	(hierarchical_label "RF_SI"
+		(shape input)
+		(at 58.42 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f105f7d0-cd94-4fa0-a558-b65cf14e2c75")
+	)
+	(hierarchical_label "RF_SCLK"
+		(shape input)
 		(at 58.42 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "efe2f629-85cc-4ad2-8032-78660b991d45")
+		(uuid "face558e-f9af-47e9-a29e-31e260b828bb")
 	)
 	(symbol
 		(lib_id "Device:Crystal_Small")
