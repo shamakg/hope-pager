@@ -661,7 +661,7 @@
         "uuid": "8c42cffd-f62f-42dc-b4f9-7d6b51af7b59"
       }
     ],
-    "used_designators": "#PWR1-4,#PWR11-14,#PWR18,#PWR26,#PWR57,#PWR61,#PWR63,#PWR67-68,#PWR79-87,#PWR96-100,C1-2,C35-36,C38-39,C41-44,C47,Y1,U1-2,U10,TP1-8,R32-35,J5",
+    "used_designators": "SW1,J1-2,J5,R1-7,R32-35,F1-2,TP1-8,Y1,U1-4,U10,Q1,C1-6,C35-36,C38-39,C41-44,C47,#PWR1-18,#PWR26,#PWR29-32,#PWR57,#PWR61,#PWR63,#PWR67-68,#PWR79-87,#PWR96-100,D1",
     "variants": []
   },
   "sheets": [
@@ -672,6 +672,22 @@
     [
       "0029df19-bc4a-40c8-86ec-a5e746fc180c",
       "Power"
+    ],
+    [
+      "17314023-28f6-4c5d-aab4-7b9c0ab792e1",
+      "Radio"
+    ],
+    [
+      "56185a43-c67e-4439-b241-a2e98f596b1d",
+      "Screen"
+    ],
+    [
+      "9d30ca43-3539-448b-a4ff-bfd8d0a49305",
+      "Buzzer"
+    ],
+    [
+      "ca26db41-05b1-48f0-87c1-e9242a4a6bfa",
+      "Buttons"
     ]
   ],
   "text_variables": {},
