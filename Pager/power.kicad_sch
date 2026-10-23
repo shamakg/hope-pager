@@ -2367,16 +2367,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 78.74) (xy 81.28 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "128192d5-5650-47c1-a618-18ce2c77b11e")
-	)
-	(wire
-		(pts
 			(xy 238.76 43.18) (xy 238.76 45.72)
 		)
 		(stroke
@@ -2387,7 +2377,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 78.74) (xy 57.15 78.74)
+			(xy 44.45 78.74) (xy 81.28 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2617,7 +2607,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 78.74) (xy 44.45 87.63)
+			(xy 44.45 78.74) (xy 44.45 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4100,7 +4090,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 59.69 78.74 90)
+		(at 44.45 85.09 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4111,27 +4101,29 @@
 		(fields_autoplaced yes)
 		(uuid "53d255b9-878d-43f8-9a1e-f84383689909")
 		(property "Reference" "R7"
-			(at 59.69 73.66 90)
+			(at 46.99 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "R_Small"
-			(at 59.69 76.2 90)
+			(at 46.99 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Array_SIP4"
-			(at 59.69 78.74 0)
+			(at 44.45 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4142,7 +4134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 78.74 0)
+			(at 44.45 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4153,7 +4145,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 59.69 78.74 0)
+			(at 44.45 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5478,25 +5470,25 @@
 		(fields_autoplaced yes)
 		(uuid "c96aee46-04c6-4bf6-aa4e-b60eaaaf6fc6")
 		(property "Reference" "C5"
-			(at 116.84 34.2901 0)
+			(at 109.22 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "4.7"
-			(at 116.84 31.7501 0)
+		(property "Value" "4.7uF"
+			(at 109.22 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
