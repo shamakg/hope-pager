@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "USB4085-GF-A_REVB")(type "KiCad")(uri "${KIPRJMOD}/libs/USB4085-GF-A_REVB.pretty")(options "")(descr "GCT USB4085-GF-A footprint (SnapMagic)"))
-)
