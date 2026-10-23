@@ -1835,7 +1835,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100 pF"
 			(at 132.08 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1905,7 +1905,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "20f7c142-799b-4a65-ad08-8644d2099396")
 		(property "Reference" "C10"
 			(at 127 92.7099 0)
@@ -1918,8 +1917,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 127 95.2499 0)
+		(property "Value" "1.0 pF"
+			(at 127 94.996 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2159,7 +2158,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "27 pF ± 5%"
+		(property "Value" "27 pF"
 			(at 100.33 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2242,12 +2241,13 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "1.5 pF"
 			(at 130.81 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "KiCad Font")
 					(size 1.27 1.27)
 				)
 				(justify right)
@@ -2390,7 +2390,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "550c3d3a-8c07-4e82-b728-2abb6edb758a")
 		(property "Reference" "C11"
 			(at 139.7 92.71 90)
@@ -2402,8 +2401,8 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 139.7 95.25 90)
+		(property "Value" "1.5 pF"
+			(at 139.7 95.504 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2525,10 +2524,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "00a64f05-5d05-4d51-9b39-838736e13dc7")
+			(uuid "00a64f05-5d05-4d51-9b39-838736e13dc8")
 		)
 		(pin "1"
-			(uuid "ce35c272-86d4-40d3-b2de-2b78bd87553d")
+			(uuid "ce35c272-86d4-40d3-b2de-2b78bd87553e")
 		)
 		(instances
 			(project "Pager"
@@ -2605,10 +2604,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "00a64f05-5d05-4d51-9b39-838736e13dc7")
+			(uuid "00a64f05-5d05-4d51-9b39-838736e13dc9")
 		)
 		(pin "1"
-			(uuid "ce35c272-86d4-40d3-b2de-2b78bd87553d")
+			(uuid "ce35c272-86d4-40d3-b2de-2b78bd87553f")
 		)
 		(instances
 			(project "Pager"
@@ -2686,7 +2685,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2286d5b7-c048-4eb1-acee-3c98221c2a16")
+			(uuid "2286d5b7-c048-4eb1-acee-3c98221c2a17")
 		)
 		(instances
 			(project "Pager"
@@ -2764,7 +2763,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2286d5b7-c048-4eb1-acee-3c98221c2a16")
+			(uuid "2286d5b7-c048-4eb1-acee-3c98221c2a18")
 		)
 		(instances
 			(project "Pager"
@@ -2843,10 +2842,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "00a64f05-5d05-4d51-9b39-838736e13dc7")
+			(uuid "00a64f05-5d05-4d51-9b39-838736e13dca")
 		)
 		(pin "1"
-			(uuid "ce35c272-86d4-40d3-b2de-2b78bd87553d")
+			(uuid "ce35c272-86d4-40d3-b2de-2b78bd875540")
 		)
 		(instances
 			(project "Pager"
@@ -3005,7 +3004,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2286d5b7-c048-4eb1-acee-3c98221c2a16")
+			(uuid "2286d5b7-c048-4eb1-acee-3c98221c2a19")
 		)
 		(instances
 			(project "Pager"
@@ -3082,10 +3081,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "00a64f05-5d05-4d51-9b39-838736e13dc7")
+			(uuid "00a64f05-5d05-4d51-9b39-838736e13dcb")
 		)
 		(pin "1"
-			(uuid "ce35c272-86d4-40d3-b2de-2b78bd87553d")
+			(uuid "ce35c272-86d4-40d3-b2de-2b78bd875541")
 		)
 		(instances
 			(project "Pager"
@@ -3241,7 +3240,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2286d5b7-c048-4eb1-acee-3c98221c2a16")
+			(uuid "2286d5b7-c048-4eb1-acee-3c98221c2a1a")
 		)
 		(instances
 			(project "Pager"
@@ -3478,10 +3477,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "00a64f05-5d05-4d51-9b39-838736e13dc7")
+			(uuid "00a64f05-5d05-4d51-9b39-838736e13dcc")
 		)
 		(pin "1"
-			(uuid "ce35c272-86d4-40d3-b2de-2b78bd87553d")
+			(uuid "ce35c272-86d4-40d3-b2de-2b78bd875542")
 		)
 		(instances
 			(project "Pager"
@@ -3514,7 +3513,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "27 pF ± 5%"
+		(property "Value" "27 pF"
 			(at 87.63 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3597,7 +3596,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "3.3 pF"
 			(at 154.94 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
