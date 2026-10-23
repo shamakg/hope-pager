@@ -3901,7 +3901,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "26c3fee3-af62-43c2-8897-3173d6607f16")
+			(uuid "26c3fee3-af62-43c2-8897-3173d6607f17")
 		)
 		(instances
 			(project "Pager"
@@ -4298,10 +4298,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "56223f83-c43c-4a75-af13-8d1ba0eb7adc")
+			(uuid "56223f83-c43c-4a75-af13-8d1ba0eb7add")
 		)
 		(pin "2"
-			(uuid "c4773ed5-6243-4d54-99ea-78bb805e16be")
+			(uuid "c4773ed5-6243-4d54-99ea-78bb805e16bf")
 		)
 		(instances
 			(project "Pager"
@@ -4460,10 +4460,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "56223f83-c43c-4a75-af13-8d1ba0eb7adc")
+			(uuid "56223f83-c43c-4a75-af13-8d1ba0eb7ade")
 		)
 		(pin "2"
-			(uuid "c4773ed5-6243-4d54-99ea-78bb805e16be")
+			(uuid "c4773ed5-6243-4d54-99ea-78bb805e16c0")
 		)
 		(instances
 			(project "Pager"
@@ -4938,7 +4938,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "26c3fee3-af62-43c2-8897-3173d6607f16")
+			(uuid "26c3fee3-af62-43c2-8897-3173d6607f18")
 		)
 		(instances
 			(project "Pager"
@@ -5180,7 +5180,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "26c3fee3-af62-43c2-8897-3173d6607f16")
+			(uuid "26c3fee3-af62-43c2-8897-3173d6607f19")
 		)
 		(instances
 			(project "Pager"
@@ -5474,10 +5474,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "56223f83-c43c-4a75-af13-8d1ba0eb7adc")
+			(uuid "56223f83-c43c-4a75-af13-8d1ba0eb7adf")
 		)
 		(pin "2"
-			(uuid "c4773ed5-6243-4d54-99ea-78bb805e16be")
+			(uuid "c4773ed5-6243-4d54-99ea-78bb805e16c1")
 		)
 		(instances
 			(project "Pager"
