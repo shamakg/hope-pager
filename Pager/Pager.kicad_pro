@@ -611,12 +611,120 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey_Part_Number",
+          "name": "DigiKey_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -661,7 +769,7 @@
         "uuid": "8c42cffd-f62f-42dc-b4f9-7d6b51af7b59"
       }
     ],
-    "used_designators": "Q1,R1-9,R32-35,J1-2,J5,F1-2,TP1-8,#PWR1-18,#PWR26,#PWR29-41,#PWR57,#PWR61,#PWR63,#PWR67-68,#PWR79-87,#PWR96-100,D1,Y1,SW1,U1-4,U10,C1-6,C14-22,C35-36,C38-39,C41-44,C47,AE1,L7",
+    "used_designators": "Q1-2,Y1-2,#FLG1-5,R1-28,R32-35,J1-3,J5,F1-2,TP1-8,#PWR1-87,#PWR96-100,D1-3,SW1-6,U1-5,U10,C1-33,C35-36,C38-39,C41-44,C47,AE1,L1-7,BZ1",
     "variants": []
   },
   "sheets": [
@@ -676,6 +784,10 @@
     [
       "17314023-28f6-4c5d-aab4-7b9c0ab792e1",
       "Radio"
+    ],
+    [
+      "bd2e8efa-9f9e-4e71-a2bf-397157569018",
+      "Display"
     ],
     [
       "9d30ca43-3539-448b-a4ff-bfd8d0a49305",
