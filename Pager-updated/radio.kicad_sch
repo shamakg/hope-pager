@@ -2428,6 +2428,17 @@
 		)
 		(uuid "695851d5-ece1-45b0-aca9-8cf65b658149")
 	)
+	(hierarchical_label "RF_GDO0"
+		(shape input)
+		(at 0.3048 0.8096 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a0a5921-d2a0-4182-bf9f-7a1390baaf92")
+	)
 	(hierarchical_label "RF_GDO1"
 		(shape input)
 		(at 58.42 88.9 180)
