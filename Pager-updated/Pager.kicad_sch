@@ -3435,6 +3435,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 35.56) (xy 217.17 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06cdb395-c8af-4a37-a316-22c629d124a5")
+	)
+	(wire
+		(pts
 			(xy 71.12 92.71) (xy 71.755 92.71)
 		)
 		(stroke
@@ -4752,6 +4762,16 @@
 			(justify left bottom)
 		)
 		(uuid "ea96ef65-431e-4eda-9e1d-66e5f43dc46c")
+	)
+	(label "VBUS_DET"
+		(at 213.36 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f1254bf7-7e80-4792-890c-0c50de3237e7")
 	)
 	(label "Buzzer_PWM"
 		(at 100.965 83.82 0)
@@ -9372,6 +9392,16 @@
 		(pin "USBD-" input
 			(at 217.17 27.94 180)
 			(uuid "3ce73fa1-98cf-4f40-8b1b-ea2c1c918329")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS_DET" input
+			(at 217.17 35.56 180)
+			(uuid "1014b7a7-1d70-43c0-b9ee-7ce249933ff0")
 			(effects
 				(font
 					(size 1.27 1.27)

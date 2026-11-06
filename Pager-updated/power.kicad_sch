@@ -3621,6 +3621,12 @@
 		(uuid "3d9da377-b2e9-40c6-8ad9-005187d64886")
 	)
 	(junction
+		(at 130.81 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "494526a6-a28d-4fb7-a4d5-f39afb93cd6b")
+	)
+	(junction
 		(at 238.76 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3783,6 +3789,16 @@
 			(type default)
 		)
 		(uuid "10e3c38e-e4a6-480f-88c6-ca0210d147fb")
+	)
+	(wire
+		(pts
+			(xy 130.81 118.11) (xy 135.89 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1783ec38-96df-4b13-90f6-813378f48ccb")
 	)
 	(wire
 		(pts
@@ -4176,6 +4192,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 118.11) (xy 130.81 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d64082c-9f5c-4889-8ce4-9e4821270bf9")
+	)
+	(wire
+		(pts
 			(xy 238.76 68.58) (xy 238.76 71.12)
 		)
 		(stroke
@@ -4376,7 +4402,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 116.84) (xy 130.81 120.65)
+			(xy 130.81 116.84) (xy 130.81 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4500,6 +4526,17 @@
 			(justify right)
 		)
 		(uuid "972f98c2-b2dd-4d9c-ad75-da46ab3425a4")
+	)
+	(hierarchical_label "VBUS_DET"
+		(shape input)
+		(at 135.89 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "afc3e838-e926-4d89-a4ba-1d53196c5319")
 	)
 	(hierarchical_label "USBD+"
 		(shape input)
