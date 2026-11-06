@@ -3236,6 +3236,10 @@
 		(uuid "166d343a-1123-455a-b323-d07ab53d6776")
 	)
 	(no_connect
+		(at 115.57 91.44)
+		(uuid "27f9cb39-573c-4b49-bf63-8cecb573534d")
+	)
+	(no_connect
 		(at 146.05 93.98)
 		(uuid "345376a5-860d-439d-ae77-47a7dc8ad0bc")
 	)
@@ -3902,16 +3906,6 @@
 			(type default)
 		)
 		(uuid "6eb46b9a-e8c3-4ae2-a228-9de34c3ebf31")
-	)
-	(wire
-		(pts
-			(xy 105.41 91.44) (xy 115.57 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ec53fcf-81b4-4822-bcae-62f1f049f5a3")
 	)
 	(wire
 		(pts
@@ -4772,16 +4766,6 @@
 			(justify left bottom)
 		)
 		(uuid "de2232c5-c584-48ee-8706-5e0cf845d1d2")
-	)
-	(label "VBUS_DET"
-		(at 105.41 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e298c644-1381-4864-a16f-df49e6299d29")
 	)
 	(label "Button_7"
 		(at 177.8 135.89 0)

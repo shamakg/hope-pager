@@ -3621,12 +3621,6 @@
 		(uuid "3d9da377-b2e9-40c6-8ad9-005187d64886")
 	)
 	(junction
-		(at 130.81 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "494526a6-a28d-4fb7-a4d5-f39afb93cd6b")
-	)
-	(junction
 		(at 238.76 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3792,16 +3786,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 118.11) (xy 135.89 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1783ec38-96df-4b13-90f6-813378f48ccb")
-	)
-	(wire
-		(pts
 			(xy 238.76 43.18) (xy 238.76 45.72)
 		)
 		(stroke
@@ -3859,16 +3843,6 @@
 			(type default)
 		)
 		(uuid "24821b93-d482-415d-ac59-b47d9d934083")
-	)
-	(wire
-		(pts
-			(xy 130.81 125.73) (xy 130.81 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24a09a69-66ef-4ddd-8ec1-407485dbcbc3")
 	)
 	(wire
 		(pts
@@ -3989,16 +3963,6 @@
 			(type default)
 		)
 		(uuid "4adf67fd-63ce-4c38-a41a-d7c13370e0a4")
-	)
-	(wire
-		(pts
-			(xy 130.81 107.95) (xy 130.81 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e68886b-b26a-4796-a48d-ade7ffd18d46")
 	)
 	(wire
 		(pts
@@ -4189,16 +4153,6 @@
 			(type default)
 		)
 		(uuid "8c352650-171c-4af4-a113-3e2d3688de84")
-	)
-	(wire
-		(pts
-			(xy 130.81 118.11) (xy 130.81 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d64082c-9f5c-4889-8ce4-9e4821270bf9")
 	)
 	(wire
 		(pts
@@ -4402,16 +4356,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 116.84) (xy 130.81 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dab5d76b-43c2-4345-9a10-446f78b6f835")
-	)
-	(wire
-		(pts
 			(xy 110.49 76.2) (xy 114.3 76.2)
 		)
 		(stroke
@@ -4527,17 +4471,6 @@
 		)
 		(uuid "972f98c2-b2dd-4d9c-ad75-da46ab3425a4")
 	)
-	(hierarchical_label "VBUS_DET"
-		(shape input)
-		(at 135.89 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "afc3e838-e926-4d89-a4ba-1d53196c5319")
-	)
 	(hierarchical_label "USBD+"
 		(shape input)
 		(at 204.47 35.56 0)
@@ -4626,88 +4559,6 @@
 			(project "Pager"
 				(path "/8c42cffd-f62f-42dc-b4f9-7d6b51af7b59/0029df19-bc4a-40c8-86ec-a5e746fc180c"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 130.81 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a209f2d-3e9d-4114-9d08-6e256f84a81c")
-		(property "Reference" "R5"
-			(at 133.35 113.0299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 133.35 115.5699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 130.81 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 130.81 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7be2566b-370b-495a-bfa7-35a93e396f56")
-		)
-		(pin "2"
-			(uuid "b3ff1538-9315-49e8-83ef-50f5c5b4b367")
-		)
-		(instances
-			(project "Pager"
-				(path "/8c42cffd-f62f-42dc-b4f9-7d6b51af7b59/0029df19-bc4a-40c8-86ec-a5e746fc180c"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -7796,166 +7647,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 130.81 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0b19cfe-0bfa-47e5-89ef-3a0542cd7212")
-		(property "Reference" "#PWR081"
-			(at 130.81 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "V_{SYS}"
-			(at 130.81 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 130.81 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a763f256-ae4c-4e23-aabd-47df020a18e3")
-		)
-		(instances
-			(project "Pager"
-				(path "/8c42cffd-f62f-42dc-b4f9-7d6b51af7b59/0029df19-bc4a-40c8-86ec-a5e746fc180c"
-					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 130.81 123.19 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b077b46a-dbdc-4a2d-8953-16dd6df9c0a7")
-		(property "Reference" "R27"
-			(at 133.35 121.9199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "180k"
-			(at 133.35 124.4599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 130.81 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 130.81 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c03b974a-1db5-4e01-be14-a9dc5cfb306a")
-		)
-		(pin "2"
-			(uuid "b90f3c3c-14b8-4bbe-914b-c30804151253")
-		)
-		(instances
-			(project "Pager"
-				(path "/8c42cffd-f62f-42dc-b4f9-7d6b51af7b59/0029df19-bc4a-40c8-86ec-a5e746fc180c"
-					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 113.03 39.37 0)
 		(mirror y)
@@ -8821,84 +8512,6 @@
 			(project "Pager"
 				(path "/8c42cffd-f62f-42dc-b4f9-7d6b51af7b59/0029df19-bc4a-40c8-86ec-a5e746fc180c"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 130.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ebefd52f-6b3b-4a30-a4b1-213b43dfad1b")
-		(property "Reference" "#PWR015"
-			(at 130.81 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Sensor:Winson_GM-402B_5x5mm_P1.27mm"
-			(at 130.81 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6ff8e906-9db9-41b8-843f-6d0cd1da5d6c")
-		)
-		(instances
-			(project "Pager"
-				(path "/8c42cffd-f62f-42dc-b4f9-7d6b51af7b59/0029df19-bc4a-40c8-86ec-a5e746fc180c"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
